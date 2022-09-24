@@ -1,0 +1,153 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*color tamaño y acomodo de header*/
+header{
+    background-color:rgb(143, 226, 196);
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+   
+} 
+/*color de fondo body*/
+body {
+    background-color: #9FE9FA;}
+  /*logo*/
+#logotipo{
+    width: 90px;
+}
+.lista1{
+    display: flex;
+}
+/*Color y tamaño de lista menu header*/
+.li1{
+    list-style: none;
+    color: black;
+    font-size: 22px;
+    margin: 0 10px;
+    font-weight: 600;
+}
+.li2{
+    list-style: none;
+    color: black;
+    font-size: 22px;
+    margin: 0 10px;
+    font-weight: 600;
+}
+/*cambio de color en menu*/
+.li1:hover{
+    color: white;
+    cursor: pointer;
+    font-size: 25px;
+}
+/*Separador flex*/
+section{
+    padding: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    
+    justify-content: space-evenly;
+}
+/*Tarjetas de blog*/
+.div_card{
+    width: 300px;
+    min-width: 300px;
+    padding: 30px;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    margin-bottom: 20px;
+    position: relative;
+   
+}
+/* logo redondo  */ 
+.imgRedonda {
+    width:100px;
+    height:90px;
+    border-radius:100px;
+    border: 2px solid #666;
+}
+/*tamaño de imagen en blog*/
+.img_card{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+/* buscador*/
+.Buscador {
+    background: url(https://cdn0.iconfinder.com/data/icons/slim-square-icons-basics/100/basics-19-32.png) no-repeat 0px 5px;
+    background-size: 24px;
+    width: auto;
+    border: transparent;
+    border-bottom: solid 1px rgb(0, 0, 0);
+    padding: 10px 10px 10px 20px;
+    outline: none;
+  }
+  /*Tamañano de la letra*/
+.div_card > p{
+    font-size: 18px;
+}
+
+#menu{
+    display: none;
+}
+/*JUMBOTRON*/
+.jumbotron-image {
+    width: auto;
+    height: auto;
+    padding: 100px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+.jumbotron-image2 {
+    width: auto;
+    height: auto;
+    padding: 50px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+.jumbotron-image > p  > h1{
+    font-size: 19px;
+    
+  }
+/*JUMBOTRON*/
+/*footer*/
+footer{
+    width: auto;
+ 
+    background-color: rgb(143, 226, 196);
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    align-items: center;
+}
+
+footer > ul >li{
+    list-style: none;
+    margin-bottom: 3px;
+    font-weight: 600;
+}
+
+footer > p{
+    font-weight: 600px;
+
+}
+/*footer*/
+@media screen and (max-width:1080px) {
+    header{
+        background-color: rgb(143, 226, 196);
+    }
+    .lista1{
+        display: none;
+    }
+    #menu{
+        display: block;
+        width: 35px;
+    }
+}
+
